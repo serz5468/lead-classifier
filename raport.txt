@@ -1,0 +1,7 @@
+Kacper -> COLD
+Anna -> WARM
+Bartosz -> COLD
+Kuba -> HOT
+Oliwia -> WARM
+Jagoda -> HOT
+Marek -> COLD

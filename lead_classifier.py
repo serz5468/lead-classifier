@@ -13,9 +13,13 @@ def classify_lead(budzet):
         return("WARM")
     else:
         return("HOT")
-for lead in leads:
+with open(r"C:\Users\user\Desktop\python\raport.txt", "w") as raport:
+ for lead in leads:
     wynik = classify_lead(lead['budzet'])
-    print(lead['imie'], "->", wynik )
+    raport.write(f"{lead['imie']} {"->"} {wynik}\n")
+     
+     
+
 
     
 
